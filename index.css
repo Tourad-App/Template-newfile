@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body
+{
+    font-family: 'Noto Sans', sans-serif;
+}
+.container
+{
+    width:1200px;
+    margin:auto;
+}
+.header
+{
+    background-image:url("img/bg.jpg");
+    height:690px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:100%;
+    color:#fff;
+}
+.header .basser
+{
+    width:100%;
+    height:70px;
+    overflow:hidden;
+    
+}
+.header .basser .Adress
+{
+    width:50%;
+    height:100%;
+    float:left;
+    position:relative;
+}
+.header .basser .Adress h2
+{
+    font-size:35px;
+    margin:0;
+    font-weight:bold;
+    text-transform:capitalize;
+    line-height:70px;
+}
+.header .basser .Adress span
+{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:#ff0157;
+    display:block;
+    float:left;
+    position:absolute;
+    bottom:20px;
+    left:85px;
+}
+.header .basser .Navbar 
+{
+    width:50%;
+    float:left;
+}
+.header .basser .Navbar ul
+{
+ list-style:none;
+ padding:0px;
+ margin:0px;
+}
+.header .basser .Navbar ul li
+{
+    float:left;
+    line-height:70px;
+    width:100px;
+    text-align:center;
+}
+.header .basser .Navbar ul li a
+{
+    text-decoration:none;
+    color:#fff;
+    font-size:18px;
+    font-weight:500;
+}
+.header .content
+{
+    width:100%;
+    text-align:center;
+    padding:180px;
+}
+.header .content h1
+{
+    font-size:80px;
+    font-weight:bold;
+    letter-spacing:3px;
+    text-transform:capitalize;
+    color:#fff;
+    margin-top:15px;
+}
+.header .content p
+{
+    color:#fff;
+    font-size:17px;
+    line-height:2;
+    font-weight:400;
+}
+.header .content button
+{
+    background:none;
+    border:none;
+    background:#ff0157;
+    color:#fff;
+    padding:10px 20px;
+    margin-top:20px;
+    text-transform:uppercase;
+    cursor:pointer;
+    letter-spacing:2px;
+    transition:0.5s;
+    font-size:18px;
+    outline:none;
+}
+.header .content button:hover{
+    letter-spacing:6px;
+}
+.About
+{
+    width:100%;
+    padding-top:120px;
+    overflow:hidden;
+    height:auto;
+    padding-bottom:100px;
+}
+.About .silde-content
+{
+    width:50%;
+    float:left;
+}
+.About .silde-content h1
+{
+    font-size:35px;
+    letter-spacing:2px;
+}
+.About .silde-content span
+{
+    color:#ff0157;
+    font-size:50px;
+    font-weight:bold;
+}
+.About .silde-content p
+{
+    line-height:1.8;
+    color:#888;  
+    padding-right:20px;
+}
+.About .About-img
+{
+    width:50%;
+    float:left;
+    margin-top:20px;
+}
+.About .About-img img
+{
+    width:100%;
+    height:100%;
+}
+.Menu
+{
+    width:100%;
+    height:auto;
+/*    border:1px solid #ddd;*/
+    padding-bottom:130px;
+}
+.Menu .Our-content
+{
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:40px;
+}
+.Menu .Our-content h1
+{
+    font-size:35px;
+    letter-spacing:2px;
+    padding-bottom:10px;
+}
+.Menu .Our-content span
+{
+     color:#ff0157;
+    font-size:50px;
+    font-weight:bold;
+}
+.Menu .Our-content p
+{
+    color:#888;
+}
+.Menu .Menu-imges
+{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: space-between;   
+    margin-bottom:30px;
+}
+.Menu .Menu-imges .div1,.Menu .Menu-imges .div2,.Menu .Menu-imges .div3
+{
+    width:30%;
+    position:relative;
+    height:380px;
+    padding:75px 50px;
+    border:15px solid #fff;
+    box-shadow:0px 15px 35px rgba(0,0,0,0.1);
+}
+.Menu .Menu-imges .div1 img, .Menu .Menu-imges .div2 img, .Menu .Menu-imges .div3 img
+{
+    width:100%;
+    height:300px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    object-fit: contain;
+}
+.Menu .Menu-imges .div1 .haydar, .Menu .Menu-imges .div2 .work, .Menu .Menu-imges .div3 .Task
+{
+    width:100%;
+    height:46px;
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    padding-left:16px;
+}
+.Menu .Menu-imges .div1 .haydar h3, .Menu .Menu-imges .div2 .work h3, 
+.Menu .Menu-imges .div3 .Task h3
+{
+    color:#292525;
+    line-height:46px;
+    font-size:17px;
+    text-transform:capitalize;
+    letter-spacing:1px;
+}
+.Menu .btn
+{
+    text-align:center;
+    width:100%;
+    padding-top:20px;
+}
+.Menu .btn button
+{
+    background:none;
+    border:0px;
+    background:#ff0157;
+    color:#fff;
+    text-transform:uppercase;
+    width:140px;
+    height:40px;
+    font-size:16px;
+    line-height:40px;
+    cursor:pointer;
+    font-weight:600;
+    letter-spacing:2px;
+    transition: 0.5s;
+}
+.Menu .btn button:hover
+{
+    letter-spacing:6px;
+}
+.Expert
+{
+    width:100%;
+    height:auto;
+    padding-bottom:80px;
+/*    border:1px solid #ddd;*/
+}
+.Expert .Expert-content
+{
+   width:100%;
+   text-align:center;
+   padding-bottom:60px;
+}
+.Expert .Expert-content h1
+{
+   font-size:35px;
+    letter-spacing:2px;
+    padding-bottom:10px;
+    text-transform:capitalize;
+}
+.Expert .Expert-content span
+{
+     color:#ff0157;
+    font-size:50px;
+    font-weight:bold;
+}
+.Expert .Expert-content p
+{
+    color:#888;
+}
+.Expert .Expert-imgs
+{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content: space-between;
+}
+.Expert .Expert-imgs .div-one, .Expert .Expert-imgs .div-two, .Expert .Expert-imgs .div-three,
+ .Expert .Expert-imgs .div-for
+{
+    width:24%;
+    height:380px;
+/*    border:1px solid #000;*/
+    position:relative;
+}
+.Expert .Expert-imgs .div-one img, .Expert .Expert-imgs .div-two img,  .Expert .Expert-imgs .div-three img, .Expert .Expert-imgs .div-for img
+{
+    width:100%;
+    height:300px;
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    object-fit: contain;
+}
+.Expert .Expert-imgs .div-one .heading, .Expert .Expert-imgs .div-two .heading,  .Expert .Expert-imgs .div-three .heading, .Expert .Expert-imgs .div-for .heading
+{
+    width:100%;
+    height:80px;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    color:#fff;
+    line-height:80px;
+    padding-left:30px
+}
+.Expert .Expert-imgs .div-one .heading h3, .Expert .Expert-imgs .div-two .heading h3,
+.Expert .Expert-imgs .div-three .heading h3, .Expert .Expert-imgs .div-for .heading h3
+{
+    color:#292525;
+    font-size:17px;
+    text-transform:capitalize;
+    letter-spacing:1px;  
+}
+.Testimonials
+{
+    width:100%;
+    height:auto;
+    background-image:url("img/bg2.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding-bottom:130px;
+}
+.Testimonials .Testimonial-content
+{
+    width:100%;
+    text-align:center;
+    padding-top:50px;
+     color:#fff;
+}
+.Testimonials .Testimonial-content h1
+{
+       font-size:35px;
+    letter-spacing:2px;
+    padding-bottom:10px;
+    text-transform:capitalize;
+}
+.Testimonials .Testimonial-content span
+{
+     color:#ff0157;
+    font-size:50px;
+    font-weight:bold; 
+}
+.Testimonials .Testimonial-content p
+{
+ color:#fff;
+}
+.Testimoinals .famous-img
+{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content:space-between;
+}
+.Testimonials .famous-img
+{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    padding-top:40px;
+}
+.Testimonials .famous-img .famous-som1, .Testimonials .famous-img .famous-som2, 
+.Testimonials .famous-img .famous-som3
+{
+    width:27%;
+    height:432px;
+    position:relative;
+    background-color:#fff;
+    padding:25px;
+    text-align: center;
+}
+.Testimonials .famous-img .famous-som1 img, .Testimonials .famous-img .famous-som2 img,
+.Testimonials .famous-img .famous-som3 img
+{
+    width:80px;
+    height:80px;
+   border-radius:50%;
+}
+.Testimonials .famous-img .famous-som1 p, .Testimonials .famous-img .famous-som2 p,
+ .Testimonials .famous-img .famous-som3 p
+{
+    color:#888;
+    line-height:2;
+    font-style: italic;
+    padding-top:10px;
+}
+.Testimonials .famous-img .famous-som1 h3, .Testimonials .famous-img .famous-som2 h3,
+.Testimonials .famous-img .famous-som3 h3
+{
+    font-size:20px;
+    padding-top:25px;
+    color:#ff0157;
+    text-transform:capitalize;
+}
+.contact 
+{
+    width:100%;
+    height:800px;
+    background-image: url("img/bg3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.contact .contact-content
+{
+    width:100%;
+    text-align:center;
+    padding-top:180px;
+}
+.contact .contact-content h1
+{
+       font-size:35px;
+    letter-spacing:2px;
+    padding-bottom:10px;
+    text-transform:capitalize;
+}
+.contact .contact-content    span
+{
+     color:#ff0157;
+    font-size:50px;
+    font-weight:bold; 
+}
+.contact .contact-content p
+{
+    color:#888;
+}
+.contact .demande
+{
+    width:40%;
+    float:left;
+    height:400px;
+    margin-top:50px;
+    padding:40px 30px;
+    background-color:#fff;
+    box-shadow:0px 15px 35px rgba(0,0,0,0.1);
+    direction: ltr;
+}
+.contact .demande form
+{
+    width:100%;
+    height:100%;
+}
+.contact .demande form label
+{
+    display:block;
+    font-size:20px;
+    font-weight:500;
+    text-transform:capitalize;
+}
+.contact .demande form input[type="text"],.contact .demande form input[type="email"]
+{
+    width:100%;
+    height:40px;
+    border:0px;
+    outline:none;
+    border:1px solid #777;
+    padding-left:15px;
+    font-size:18px;
+    color:#000;
+    margin:10px 0px;
+}
+.contact .demande form input::placeholder,.contact .demande form textarea::placeholder
+{
+    text-transform:capitalize;
+}
+.contact .demande form textarea
+{
+    width:100%;
+    height:80px;
+    outline:none;
+    border:none;
+    border:1px solid #777;
+    padding-left:15px;
+    padding-top:10px;
+    font-size:18px;
+    color:#000;
+    margin:8px 0px;
+}
+.contact .demande form  input[type="submit"]
+{
+    border:none;
+    background:none;
+    color:#fff;
+    background:#ff0157;
+    padding: 10px 24px;
+    text-transform:uppercase;
+    font-size:18px;
+    cursor:pointer;
+    margin-top:15px;
+}
+.footer
+{
+    width:100%;
+    margin-top:35px;
+    text-align:center;
+    height:70px;
+    line-height:70px;
+    border-top:1px solid #888
+}
+.footer h4
+{
+    color:#000000;
+    text-transform:capitalize;
+    letter-spacing:1px;
+}
+.footer span
+{
+    color:#ff0157;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
